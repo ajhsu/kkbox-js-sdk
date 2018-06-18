@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Uri Album fetchMetadata 1`] = `"https://api.kkbox.com/v1.1/albums/fakeAlbumId?territory=TW"`;
+
+exports[`Uri Album fetchTracks 1`] = `"https://api.kkbox.com/v1.1/albums/fakeAlbumId/tracks?territory=TW&limit=5&offset=10"`;
+
+exports[`Uri Artist fetchAlbums 1`] = `"https://api.kkbox.com/v1.1/artists/fakeArtistId/albums?territory=TW&limit=5&offset=10"`;
+
+exports[`Uri Artist fetchMetadata 1`] = `"https://api.kkbox.com/v1.1/artists/fakeArtistId?territory=TW"`;
+
+exports[`Uri Artist fetchRelatedArtists 1`] = `"https://api.kkbox.com/v1.1/artists/fakeArtistId/related-artists?territory=TW&limit=5&offset=10"`;
+
+exports[`Uri Artist fetchTopTracks 1`] = `"https://api.kkbox.com/v1.1/artists/fakeArtistId/top-tracks?territory=TW&limit=5&offset=10"`;
+
+exports[`Uri Auth fetchAccessToken 1`] = `"https://account.kkbox.com/oauth2/token/"`;
+
+exports[`Uri Chart listAll 1`] = `"https://api.kkbox.com/v1.1/charts?territory=TW&limit=5&offset=10"`;
+
+exports[`Uri FeaturedPlaylistCategory fetch 1`] = `"https://api.kkbox.com/v1.1/featured-playlist-categories/fakeCategoryId?territory=TW&limit=5&offset=10"`;
+
+exports[`Uri FeaturedPlaylistCategory listAll 1`] = `"https://api.kkbox.com/v1.1/featured-playlist-categories?territory=TW&limit=5&offset=10"`;
+
+exports[`Uri GenreStation fetch 1`] = `"https://api.kkbox.com/v1.1/genre-stations/fakeStationId?territory=TW&limit=5&offset=10"`;
+
+exports[`Uri GenreStation listAll 1`] = `"https://api.kkbox.com/v1.1/genre-stations?territory=TW&limit=5&offset=10"`;
+
+exports[`Uri MoodStation fetch 1`] = `"https://api.kkbox.com/v1.1/mood-stations/fakeStationId?territory=TW&limit=5&offset=10"`;
+
+exports[`Uri MoodStation listAll 1`] = `"https://api.kkbox.com/v1.1/mood-stations?territory=TW&limit=5&offset=10"`;
+
+exports[`Uri NewReleaseCategory fetch 1`] = `"https://api.kkbox.com/v1.1/new-release-categories/fakeCategoryId?territory=TW&limit=5&offset=10"`;
+
+exports[`Uri NewReleaseCategory listAll 1`] = `"https://api.kkbox.com/v1.1/new-release-categories?territory=TW&limit=5&offset=10"`;
+
+exports[`Uri Playlist fetch 1`] = `"https://api.kkbox.com/v1.1/shared-playlists/fakePlaylistId?territory=TW"`;
+
+exports[`Uri Playlist fetchFeaturedPlaylists 1`] = `"https://api.kkbox.com/v1.1/featured-playlists?territory=TW&limit=5&offset=10"`;
+
+exports[`Uri Playlist fetchNewHitsPlaylists 1`] = `"https://api.kkbox.com/v1.1/new-hits-playlists?territory=TW&limit=5&offset=10"`;
+
+exports[`Uri Search query 1`] = `"https://api.kkbox.com/v1.1/search?q=FAKE%20QUERY&territory=TW&limit=5&offset=10"`;
+
+exports[`Uri Track fetch 1`] = `"https://api.kkbox.com/v1.1/tracks/fakeTrackId?territory=TW"`;
